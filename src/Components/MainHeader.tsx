@@ -5,7 +5,7 @@ import React, {useState} from "react";
 const MainHeader = () => {
     const [isOpen, setIsOpen] = useState<boolean>(false);
 
-    return(<>
+    return(<div>
         <header className="flex p-5 justify-between">
             <div className={'text-xl text-warmGrey-900 font-bold border-b-2 border-warmGrey-900 flex-initial'}>Color Cloud & Sound</div>
             <button className={'flex-2 bg-green-500'} onClick={() => setIsOpen(!isOpen)}><img src={menuIcon} alt={'Menu'}/></button>
@@ -22,7 +22,7 @@ const MainHeader = () => {
             Contact
         </div>
     </Transition>
-        </>
+        </div>
     )
 }
 export default MainHeader;
