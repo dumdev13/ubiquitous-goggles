@@ -6,7 +6,7 @@ const MainHeader = () => {
     const [isOpen, setIsOpen] = useState<boolean>(false);
 
     return(<div>
-        <header className="flex p-5 justify-between">
+        <header className="flex p-5 lg:p-8 justify-between">
             <div className={'text-xl text-warmGrey-900 font-bold border-b-4 border-warmGrey-900 flex-initial'}>Color Cloud & Sound</div>
             <button className={'flex-2 bg-green-500'} onClick={() => setIsOpen(!isOpen)}><img src={menuIcon} alt={'Menu'}/></button>
         </header>
