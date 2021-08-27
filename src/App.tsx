@@ -15,7 +15,9 @@ function App() {
         <Hero/>
         <TextSection/>
         <hr className={"opacity-10 mx-6"}/>
+        <PanelContent flip={true}/>
         <PanelContent flip={false}/>
+        <PanelContent flip={true}/>
         <MainFooter/>
     </div>
   );

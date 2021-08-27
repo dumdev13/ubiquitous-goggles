@@ -15,6 +15,13 @@ module.exports = {
       yellow: colors.amber,
       blue: colors.blue
     },
+    maxWidth: {
+      '1/4': '25%',
+      '1/3': '33%',
+      '1/2': '50%',
+      '2/3': '66%',
+      '3/4': '75%',
+    },
     extend: {
       fontFamily: {
         'mont': ['"Montserrat"', 'sans-serif']
